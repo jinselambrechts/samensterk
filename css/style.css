@@ -314,10 +314,6 @@ strong {
 }
 
 @media (max-width: 830px) {
-	body {
-		background-color: yellow;
-	}
-
 	.logo-samen-sterk {
 		margin: 0 auto 1em auto;
 	}
@@ -329,7 +325,6 @@ strong {
 
 @media (max-width: 780px) {
 	body {
-		background-color: yellow;
 		font-size: 1em;
 	}
 
@@ -348,7 +343,6 @@ strong {
 
 @media (max-width: 650px) {
 	body {
-		background-color: blue;
 		font-size: 1em;
 	}
 
