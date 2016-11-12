@@ -1,0 +1,455 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Raleway:100,200,300,400';
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', Arial, Sans-serif;
+	font-size: 1.2em;
+	background-color: #F8F4F5;
+	width: 100%;
+	height: 100%;
+}
+
+h2 {
+	font-family: 'Raleway', Arial, Sans-serif;
+	font-size: 1.5em;
+	margin-bottom: 0.6em;
+	color: turquoise;
+}
+
+.logo-samen-sterk {
+	float: left;
+	width: 25%;
+}
+
+.logo-samen-sterk img {
+	width: 75%;
+}
+
+.menu {
+	font-family: 'Raleway', Arial, Sans-serif;
+	font-size: 1em;
+	float: right;
+	width: 75%;
+	text-align: right;
+	margin-top: 1.6em;
+}
+
+.menubalk {
+	padding: 1em 5em 1em 5em;
+	background-color: #D4014A;
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1;
+	box-shadow: 0px 2px 8px -1px rgba(0, 0, 0, 0.4);
+}
+
+.menubalk a {
+	color: white;
+	text-decoration: none;
+}
+
+.menubalk a:visited {
+	color: white;
+}
+
+.menubalk a:hover, .menubalk:visited:hover {
+	color: turquoise;
+}
+
+.menu li {
+	display: inline;
+	margin-right: 1.2em;
+}
+
+.menu li:last-child {
+	margin-right: 0em;
+}
+
+.responsive-menu-icoon {
+	display: none;
+}
+
+.kader {
+	padding: 12% 20%;
+}
+
+#home .kader, #over-ons .kader, #quote-bags .kader, #sponsors .kader, #contact .kader {
+	overflow: auto;
+}
+
+#verhalen .kader {
+	overflow: none;
+}
+
+
+.kader a {
+	color: #D4014A;
+	text-decoration: none;
+}
+
+.kader a:visited {
+	color: #D4014A;
+}
+
+.kader a:hover, .menu:visited:hover {
+	color: turquoise;
+}
+
+.kader p {
+	padding-bottom: 1em;
+	line-height: 1.35em;
+}
+
+#home {
+	position: relative;
+}
+
+.logos-klein {
+	width: 12em;
+	margin: 1.5em auto 0 auto;
+}
+
+.logos-klein img:nth-child(2) {
+	float: right;
+}
+
+.logo-klein {
+	height: 3em;
+}
+
+.logo-klein, #over-ons img, #sponsors img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#over-ons, #verhalen, #quote-bags, #sponsors {
+	min-height: 100%;
+}
+
+#over-ons, #quote-bags {
+	background-color: #FCF7F9;
+}
+
+#over-ons img {
+	width: 100%;
+	max-width: 100%;
+	float: left;
+}
+
+.over-ons-afbeelding-rand {
+	display: inline-block;
+	width: 40%;
+	padding: 0.3em;
+	border: 2px solid turquoise;
+	float: right;
+	margin: 0 0 0.45em 0.9em;
+}
+
+#quote-bags img {
+	width: 20%;
+	float: right;
+	margin-top: -14em;
+}
+
+#quote-bags p {
+	width: 65%;
+	float: left;
+}
+
+/*.witvlak {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+}*/
+
+#verhalen {
+	background-image: url(../img/lindsey-de-grande-zwart-wit.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+#verhalen img {
+	max-width: 100%;
+}
+
+#knop {
+	padding: 0.6em 1.1em;
+	background-color: turquoise;
+	border: none;
+	color: white;
+	font-size: 1em;
+	position: relative;
+	top: 13.5em;
+}
+
+#knop:hover {
+	padding: 0.5em 1em;
+	background-color: transparent;
+	border: 2px solid turquoise;
+	color: turquoise;
+}
+
+#sponsors img {
+	max-width: 100%;
+	width: 30%;
+}
+
+.afbeelding-1, .afbeelding-2 {
+	margin-right: 4.3%;
+}
+
+.logo-klein:hover, #over-ons img:hover, #sponsors img:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+#contact {
+	font-family: 'Raleway', Arial, Sans-serif;
+	font-weight: 300;
+	background-color: #D4014A;
+	color: white;
+	padding: 1.6em;
+	text-align: center;
+}
+
+#contact li {
+	display: inline;
+}
+
+#contact li:nth-child(-n+2) {
+	margin-right: 5em;
+}
+
+#contact li:nth-last-child(-n+3) {
+	margin-right: 0.4em;
+}
+
+#contact a {
+	text-decoration: none;
+	color: white;
+}
+
+#contact a:hover {
+	color: turquoise;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.scroll {
+	background-color: rgba(212, 1, 74, 1);
+}
+
+::selection {
+	background-color: turquoise;
+	color: white;
+}
+
+@media (max-width: 1190px) {
+	body {
+		background-color: pink;
+	}
+
+	.logo-samen-sterk {
+		float: none;
+		width: 40%;
+		margin: 0 auto 1.5em auto;
+	}
+
+	.menu {
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.menubalk {
+		padding: 1em 0em 1em 0em;
+		text-align: center;
+	}
+
+	.kader {
+		padding: 22% 15%;
+	}
+
+	.afbeelding-1, .afbeelding-2 {
+		margin-right: 4%;
+	}
+}
+
+@media (max-width: 1075px) {
+	.afbeelding-1, .afbeelding-2 {
+		margin-right: 3%;
+	}
+
+	#quote-bags img {
+		display: none;
+	}
+
+	#quote-bags p {
+		width: 100%;
+		float: none;
+	}
+}
+
+@media (max-width: 845px) {
+	.afbeelding-1, .afbeelding-2 {
+		margin-right: 3%;
+	}
+}
+
+@media (max-width: 830px) {
+	body {
+		background-color: yellow;
+	}
+
+	.logo-samen-sterk {
+		margin: 0 auto 1em auto;
+	}
+
+	.menu {
+		font-size: 0.9em;
+	}
+}
+
+@media (max-width: 780px) {
+	body {
+		background-color: yellow;
+		font-size: 1em;
+	}
+
+	h2 {
+		font-size: 1.3em;
+	}
+
+	.logo-samen-sterk {
+		margin: 0 auto 1em auto;
+	}
+
+	.menu {
+		font-size: 0.9em;
+	}
+}
+
+@media (max-width: 650px) {
+	body {
+		background-color: blue;
+		font-size: 1em;
+	}
+
+	.logo-samen-sterk {
+		float: left;
+		width: 15em;
+	}
+
+	.menubalk {
+		padding-bottom: 0;
+	}
+
+	.menu {
+		font-size: 1em;
+		float: left;
+		text-align: left;
+		position: relative;
+		display: inline-block;
+	}
+
+	.menu li {
+		display: block;
+		margin: 0 0 1em 2em;
+		float: none;
+	}
+
+	.menu ul.active {
+		display: none;
+	}
+
+	.menu ul {
+	  width: 100%;
+	  position: absolute;
+	  top: 120%;
+	  left: 0px;
+	  padding: 1em;
+	  background: #D4014A;
+	}
+
+	.menu a {
+		display: block;
+	}
+
+	.responsive-menu-icoon {
+		font-size: 2em;
+		width: 2em;
+		float: right;
+		display: inline-block;
+		color: white;
+		position: absolute;
+		top: -1.7em;
+		right: 0em;
+	}
+
+	.responsive-menu-icoon:hover {
+		color: turquoise;
+	}
+
+	.over-ons-afbeelding-rand {
+		width: 100%;
+		margin: 0 auto 0.9em auto;
+		float: none;
+	}
+
+	#contact li:nth-child(-n+2) {
+		margin-right: 4em;
+	}
+}
+
+@media (max-width: 600px) {
+	#contact li:nth-child(-n+2) {
+		margin-right: 2em;
+	}
+
+	#sponsors img {
+		width: 100%;
+	}
+
+	.afbeelding-1, .afbeelding-2 {
+		margin-right: 0;
+		margin-bottom: 5%;
+	}
+}
+
+@media (max-width: 550px) {
+	.kader {
+		padding: 20% 10%;
+	}
+}
+
+@media (max-width: 475px) {
+	#contact li:nth-child(-n+2) {
+		display: block;
+		margin: 0 0 0.6em 0;
+	}
+
+	#contact li:nth-child(3) {
+		margin-left: 0.4em;
+	}
+
+	.kader {
+		padding: 30% 15%;
+	}
+}
