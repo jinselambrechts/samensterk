@@ -109,16 +109,17 @@ h2 {
 }
 
 .logos-klein {
-	width: 12em;
-	margin: 1.5em auto 0 auto;
-}
-
-.logos-klein img:nth-child(2) {
-	float: right;
+	width: 24.1em;
+	margin: 1em auto 0 auto;
 }
 
 .logo-klein {
-	height: 3em;
+	height: 3.5em;
+	margin-right: 5em;
+}
+
+.logo-klein:nth-child(3) {
+	margin-right: 0em;
 }
 
 .logo-klein, #over-ons img, #sponsors img {
