@@ -19,6 +19,10 @@ h2 {
 	color: turquoise;
 }
 
+h3 {
+	font-weight: 700;
+}
+
 .logo-samen-sterk {
 	float: left;
 	width: 25%;
@@ -447,13 +451,4 @@ strong {
 	.kader {
 		padding: 30% 15%;
 	}
-}
-
-
-
-
-/* Later toegevoegd */
-
-h3 {
-	font-weight: 700;
 }
