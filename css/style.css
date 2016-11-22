@@ -209,7 +209,11 @@ h2 {
 	width: 30%;
 }
 
-.afbeelding-1, .afbeelding-2 {
+.rij-1 {
+	margin-bottom: 4.3%;
+}
+
+.afbeelding-1, .afbeelding-2, .afbeelding-4, .afbeelding-5 {
 	margin-right: 4.3%;
 }
 
@@ -443,4 +447,13 @@ strong {
 	.kader {
 		padding: 30% 15%;
 	}
+}
+
+
+
+
+/* Later toegevoegd */
+
+h3 {
+	font-weight: 700;
 }
