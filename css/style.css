@@ -286,6 +286,10 @@ strong {
 	font-weight: bold;
 }
 
+em {
+	font-style: italic;
+}
+
 .scroll {
 	background-color: rgba(212, 1, 74, 1);
 }
