@@ -110,24 +110,45 @@ h3 {
 }
 
 #home {
+	background-image: url(../img/tote-bag-lindsey-de-grande.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
 	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+#home .kader {
+	padding: 12% 10%;
+}
+
+#home h2 {
+	font-size: 1.8em;
+	text-align: center;
+	color: #D4014A;
+	position: absolute;
+	bottom: 15px;
 }
 
 .logos-klein {
-	width: 24.1em;
+	width: 17.1em;
 	margin: 1em auto 0 auto;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
 }
 
 .logo-klein {
 	height: 3.5em;
-	margin-right: 5em;
+	margin-right: 1.5em;
 }
 
 .logo-klein:nth-child(3) {
 	margin-right: 0em;
 }
 
-.logo-klein, #over-ons img, #sponsors img {
+#over-ons img, #sponsors img {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	-webkit-transition: .3s ease-in-out;
@@ -158,7 +179,7 @@ h3 {
 }
 
 #quote-bags img {
-	width: 20%;
+	width: 25%;
 	float: right;
 	margin-top: -14em;
 }
@@ -218,7 +239,11 @@ h3 {
 	margin-bottom: 4.3%;
 }
 
-.afbeelding-1, .afbeelding-2, .afbeelding-4, .afbeelding-5 {
+.rij-2 {
+	margin-bottom: 8%;
+}
+
+.afbeelding-1, .afbeelding-2, .afbeelding-4, .afbeelding-5, .afbeelding-6, .afbeelding-7 {
 	margin-right: 4.3%;
 }
 
