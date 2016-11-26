@@ -181,22 +181,13 @@ h3 {
 #quote-bags img {
 	width: 25%;
 	float: right;
-	margin-top: -14em;
+	margin-top: -14.5em;
 }
 
 #quote-bags p {
 	width: 65%;
 	float: left;
 }
-
-/*.witvlak {
-	width: 100%;
-	height: 100%;
-	background-color: rgba(255, 255, 255, 0.5);
-	position: absolute;
-	top: 0;
-	left: 0;
-}*/
 
 #verhalen {
 	background-image: url(../img/lindsey-de-grande-zwart-wit.jpg);
