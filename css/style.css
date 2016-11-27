@@ -24,6 +24,10 @@ h3 {
 	margin-bottom: 0.3em;
 }
 
+img {
+	max-width: 100%;
+}
+
 .logo-samen-sterk {
 	float: left;
 	width: 25%;
@@ -165,7 +169,6 @@ h3 {
 
 #over-ons img {
 	width: 100%;
-	max-width: 100%;
 	float: left;
 }
 
@@ -189,6 +192,15 @@ h3 {
 	float: left;
 }
 
+/*.witvlak {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+}*/
+
 #verhalen {
 	background-image: url(../img/lindsey-de-grande-zwart-wit.jpg);
 	background-repeat: no-repeat;
@@ -198,10 +210,6 @@ h3 {
 	height: 100%;
 	width: 100%;
 	text-align: center;
-}
-
-#verhalen img {
-	max-width: 100%;
 }
 
 #knop {
@@ -222,7 +230,6 @@ h3 {
 }
 
 #sponsors img {
-	max-width: 100%;
 	width: 30%;
 }
 
