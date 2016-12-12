@@ -91,9 +91,13 @@ img {
 }
 
 #verhalen .kader {
-	overflow: none;
+	/*overflow: none;*/
+	overflow: auto;
 }
 
+.onzichtbaar {
+	display: none;
+}
 
 .kader a {
 	color: #D4014A;
@@ -152,7 +156,7 @@ img {
 	margin-right: 0em;
 }
 
-#over-ons img, #sponsors img {
+#over-ons img, #sponsors img, #verhalen img {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	-webkit-transition: .3s ease-in-out;
@@ -192,16 +196,7 @@ img {
 	float: left;
 }
 
-/*.witvlak {
-	width: 100%;
-	height: 100%;
-	background-color: rgba(255, 255, 255, 0.5);
-	position: absolute;
-	top: 0;
-	left: 0;
-}*/
-
-#verhalen {
+/*#verhalen {
 	background-image: url(../img/lindsey-de-grande-zwart-wit.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -210,23 +205,66 @@ img {
 	height: 100%;
 	width: 100%;
 	text-align: center;
-}
+}*/
 
-#knop {
+.knop {
+	box-sizing: border-box;
 	padding: 0.6em 1.1em;
 	background-color: turquoise;
 	border: none;
-	color: white;
-	font-size: 1em;
-	position: relative;
-	top: 13.5em;
+	/*font-size: 1em;
+	/*position: relative;
+	top: 13.5em;*/
+	font-size: 0.8em;
+	text-align: center;
+	display: block;
+	width: 100%;
+	margin-top: 4.3%;
 }
 
-#knop:hover {
-	padding: 0.5em 1em;
+.knop:hover {
+	padding: 0.48em 1em;
 	background-color: transparent;
 	border: 2px solid turquoise;
+}
+
+#knop-lindsey, #knop-ilse {
+	color: white;
+}
+
+#knop-lindsey:hover, #knop-ilse:hover {
 	color: turquoise;
+}
+
+.artikel {
+	width: 40%;
+	border: 2px solid turquoise;
+	padding: 1.3em;
+}
+
+.artikel-lindsey {
+	float: left;
+}
+
+.artikel-ilse {
+	float: right;
+}
+
+.artikel img {
+	margin-bottom: 4.3%;
+}
+
+.interview h2 {
+	width: 75%;
+	float: left;
+}
+
+.terug {
+	font-size: 1em;
+	width: 25%;
+	float: right;
+	text-align: right;
+	padding-top: 0.2em
 }
 
 #sponsors img {
@@ -245,7 +283,7 @@ img {
 	margin-right: 4.3%;
 }
 
-.logo-klein:hover, #over-ons img:hover, #sponsors img:hover {
+.logo-klein:hover, #over-ons img:hover, #sponsors img:hover, #verhalen img:hover {
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
 }
@@ -286,6 +324,10 @@ strong {
 
 em {
 	font-style: italic;
+}
+
+span {
+	font-weight: bold;
 }
 
 .scroll {
