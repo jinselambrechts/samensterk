@@ -1,4 +1,8 @@
 var main = function () {
+  "use strict";
+
+  /*$("#home").height( $(window).height());*/
+  /*$("#witvlak").height( $(window).height());*/
 
   $( 'a[href^="http://"]').attr('target', '_blank' )
 	$( 'a[href^="https://"]').attr('target', '_blank' )
@@ -13,20 +17,43 @@ var main = function () {
     }
   });
 
-  /*$(document).on('click', 'a', function(event){
+  $(document).on('click', 'a', function(event){
     event.preventDefault();
 
     $('html, body').animate({
       scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 500);
-  });*/
+  });
 
-  jQuery('.responsive-menu-icoon').click(function(e) {
-    jQuery(this).toggleClass('active');
-    jQuery('.menu ul').toggleClass('active');
+  $('.responsive-menu-icoon').click(function(e) {
+    $(this).toggleClass('active');
+    $('.menu ul').toggleClass('active');
+
+    e.preventDefault();
+  });
+
+  $('#knop-lindsey').click(function(e) {
+    $('#interview-lindsey').toggleClass('onzichtbaar');
+    $('#interview-ilse').addClass('onzichtbaar');
+
+    e.preventDefault();
+  });
+
+  $('#knop-ilse').click(function(e) {
+    $('#interview-ilse').toggleClass('onzichtbaar');
+    $('#interview-lindsey').addClass('onzichtbaar');
+
+    e.preventDefault();
+  });
+
+  $('.terug').click(function(e) {
+    $('#interview-ilse').addClass('onzichtbaar');
+    $('#interview-lindsey').addClass('onzichtbaar');
 
     e.preventDefault();
   });
 }
+
+// ToggleClass
 
 $('document').ready(main);
