@@ -1,11 +1,10 @@
 var main = function () {
   "use strict";
 
-  /*$("#home").height( $(window).height());*/
-  /*$("#witvlak").height( $(window).height());*/
+  $("#slider").height( $(window).height());
 
-  $( 'a[href^="http://"]').attr('target', '_blank' )
-	$( 'a[href^="https://"]').attr('target', '_blank' )
+  $('a[href^="http://"]').attr('target', '_blank')
+	$('a[href^="https://"]').attr('target', '_blank')
 
 	$(window).scroll(function() {
     var scroll = $(window).scrollTop();
@@ -58,6 +57,14 @@ var main = function () {
 
     e.preventDefault();
   });
+
+  /*$('.slider-quote-bags').slick({
+    dots: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 6000,
+    speed: 800
+  });*/
 }
 
 $('document').ready(main);
