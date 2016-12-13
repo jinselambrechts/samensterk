@@ -20,13 +20,25 @@ h2 {
 }
 
 h3 {
-	font-weight: 700;
-	margin-bottom: 0.3em;
+	font-family: 'Raleway', Arial, Sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 0.6em;
+	color: turquoise;
 }
 
 h4 {
 	font-weight: bold;
-	margin-bottom: 0.5em;
+	font-size: 1em;
+	margin-bottom: 0.3em;
+}
+
+h5 {
+	font-weight: italic;
+	font-size: 0.8em;
+	text-align: center;
+	margin-bottom: 2em;
+	color: #777777;
 }
 
 img {
@@ -202,16 +214,13 @@ img {
 	margin-right: 10%;
 }
 
-/*#verhalen {
-	background-image: url(../img/lindsey-de-grande-zwart-wit.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top center;
-	position: relative;
-	height: 100%;
-	width: 100%;
-	text-align: center;
-}*/
+.slider-afbeelding {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	z-index: 1;
+}
 
 .knop {
 	box-sizing: border-box;
@@ -287,18 +296,35 @@ img {
 	float: right;
 }
 
+table, th, td {
+	border: 2px solid turquoise;
+	margin-bottom: 1em;
+}
+
+td {
+	padding: 0.4em 1em;
+}
+
 .bestellingsformulier {
 	border: 2px solid turquoise;
 	padding: 1.3em;
 	margin-top: 2em;
 }
 
+input[type=text] {
+	padding: 0.4em;
+}
+
 .naam, .adres, .e-mailadres, .opmerking {
-	width: 100%;
+	width: 97.5%;
 }
 
 .aantal {
-	width: 2em;
+	width: 1.8em;
+}
+
+.opmerking {
+	padding: 0.4em;
 }
 
 #sponsors img {
