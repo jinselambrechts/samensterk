@@ -52,8 +52,12 @@ var main = function () {
 
     e.preventDefault();
   });
-}
 
-// ToggleClass
+  $('#knop-bestellen').click(function(e) {
+    $('#bestellen').toggleClass('onzichtbaar');
+
+    e.preventDefault();
+  });
+}
 
 $('document').ready(main);
