@@ -1,8 +1,6 @@
 var main = function () {
   "use strict";
 
-  $("#slider").height( $(window).height());
-
   $('a[href^="http://"]').attr('target', '_blank')
 	$('a[href^="https://"]').attr('target', '_blank')
 
@@ -58,13 +56,14 @@ var main = function () {
     e.preventDefault();
   });
 
-  /*$('.slider-quote-bags').slick({
+  $('.slider-quote-bags').slick({
     dots: true,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 6000,
-    speed: 800
-  });*/
+    autoplaySpeed: 3000,
+    speed: 300,
+    arrows : false,
+  });
 }
 
 $('document').ready(main);
