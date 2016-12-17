@@ -108,7 +108,6 @@ img {
 }
 
 #verhalen .kader {
-	/*overflow: none;*/
 	overflow: auto;
 }
 
@@ -135,25 +134,8 @@ img {
 }
 
 #home {
-	background-image: url(../img/tote-bag-lindsey-de-grande.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: bottom center;
-	position: relative;
 	height: 100%;
 	width: 100%;
-}
-
-#home .kader {
-	padding: 12% 10%;
-}
-
-#home h2 {
-	font-size: 1.8em;
-	text-align: center;
-	color: #D4014A;
-	position: absolute;
-	bottom: 15px;
 }
 
 .logos-klein {
@@ -214,13 +196,25 @@ img {
 	margin-right: 10%;
 }
 
-/*.slider-afbeelding {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translateX(-50%) translateY(-50%);
-	z-index: 1;
-}*/
+.slider-afbeelding-1 {
+	background-image: url(../img/tote-bag-lindsey-de-grande.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.slider-afbeelding-2 {
+	background-image: url(../img/tote-bag-ilse-de-cauwer.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
 
 .knop {
 	box-sizing: border-box;
