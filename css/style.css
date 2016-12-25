@@ -187,13 +187,51 @@ img {
 #quote-bags img {
 	width: 40%;
 	float: right;
-	margin-top: -11.5em;
 }
 
-#quote-bags p {
+.smal {
 	width: 50%;
 	float: left;
 	margin-right: 10%;
+}
+
+.opmerking {
+	width: 92.30%;
+	background-color: turquoise;
+	color: white;
+	padding: 0.8em 1.6em;
+	overflow: auto;
+	text-align: center;
+}
+
+.opmerking p {
+	line-height: 1.6em;
+	font-size: 1.1em;
+}
+
+.opmerking-kader-rand {
+	display: inline-block;
+	width: 100%;
+	padding: 0.3em;
+	border: 2px solid turquoise;
+	float: right;
+	margin: 2em 0 0.5em 1em;
+}
+
+.opmerking a {
+	color: #D4014A5;
+}
+
+.opmerking a:hover {
+	color: black;
+}
+
+.opmerking a:visited {
+	color: #D4014A;
+}
+
+.opmerking a:hover:visited {
+	color: black;
 }
 
 .slider-afbeelding-1 {
@@ -235,11 +273,11 @@ img {
 	border: 2px solid turquoise;
 }
 
-#knop-lindsey, #knop-ilse, #knop-bestellen, #bestelling-plaatsen {
+#knop-lindsey, #knop-ilse, #bestelling-plaatsen {
 	color: white;
 }
 
-#knop-lindsey:hover, #knop-ilse:hover, #knop-bestellen:hover, #bestelling-plaatsen:hover {
+#knop-lindsey:hover, #knop-ilse:hover, #bestelling-plaatsen:hover {
 	color: turquoise;
 }
 
@@ -285,37 +323,6 @@ img {
 
 .quote-bag-ilse {
 	float: right;
-}
-
-table, th, td {
-	border: 2px solid turquoise;
-	margin-bottom: 1em;
-}
-
-td {
-	padding: 0.4em 1em;
-}
-
-.bestellingsformulier {
-	border: 2px solid turquoise;
-	padding: 1.3em;
-	margin-top: 2em;
-}
-
-input[type=text] {
-	padding: 0.4em;
-}
-
-.naam, .adres, .e-mailadres, .opmerking {
-	width: 97.5%;
-}
-
-.aantal {
-	width: 1.8em;
-}
-
-.opmerking {
-	padding: 0.4em;
 }
 
 #sponsors img {
